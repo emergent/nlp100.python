@@ -1,0 +1,23 @@
+#! /bin/bash
+# http://www.cl.ecei.tohoku.ac.jp/nlp100/#ch2
+
+# 10.
+wc -l hightemp.txt
+
+# 11.
+tr '\t' ' ' < hightemp.txt
+
+# 12.
+cut -f 1 hightemp.txt > col1.txt
+cut -f 2 hightemp.txt > col2.txt
+
+# 13.
+paste col1.txt col2.txt
+
+# 14.
+head -4 hightemp.txt
+
+# 15.
+tail -4 hightemp.txt
+
+# 16.
