@@ -25,3 +25,9 @@ split -l 3 hightemp.txt hoge
 
 # 17.
 cut -f 1 hightemp.txt | sort | uniq # -c | sort -nr
+
+# 18.
+cut -f 3 hightemp.txt | sort
+
+# 19.
+cut -f 1 hightemp.txt | sort | uniq -c | sort -nr
