@@ -1,7 +1,7 @@
-with open("neko.txt.mecab") as f:
-    lines = f.readlines()
-
 def get_morph():
+    with open("neko.txt.mecab") as f:
+        lines = f.readlines()
+
     sentences = []
     sentence = []
     for line in lines:
